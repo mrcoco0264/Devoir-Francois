@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mi131/Bureau/Devoir_C/untitled/main.c
+stdio.h
+-
+zconf.h
+-
+stdlib.h
+-
+string.h
+-
+pthread.h
+-
+unistd.h
+-
+
