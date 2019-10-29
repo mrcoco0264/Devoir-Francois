@@ -39,9 +39,21 @@ void* executeFile(const char* nomFichier)
 {
 
 }
-void* listesObjets(int debut, int fin)
+void* listesObjets(const int debut,const int fin)
 {
+    struct noeud * ptr= head;
 
+    while(ptr!=NULL)
+    {
+        if((ptr->ligne.noligne>=debut)&&(ptr->ligne.noligne<=fin))
+        {
+            printf("%d \n %s \t",ptr->ligne.noligne,ptr->ligne.ptrligne);
+        }
+        if(ptr->ligne.noligne>fin)
+            {
+
+            }
+    }
 }
 
 void* LectureTransaction(char *stringFichier) {
